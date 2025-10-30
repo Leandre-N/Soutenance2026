@@ -1,18 +1,20 @@
 import 'package:flutter/material.dart';
+import 'screens/screen.dart';
+import 'theme.dart';
 
-void main () {
-  runApp(const MyApp());
+void main() {
+  runApp(const SanteVibesApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class SanteVibesApp extends StatelessWidget {
+  const SanteVibesApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'SanteVibes',
       debugShowCheckedModeBanner: false,
-      home: Scaffold()
+      title: 'SantéVibes',
+      home: const FamilyDashboardScreen(),
     );
   }
 }
