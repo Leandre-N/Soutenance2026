@@ -73,7 +73,7 @@ class FamilyHeader extends StatelessWidget {
                     Text("SantéVibes",
                         style: TextStyle(
                             color: Colors.white,
-                            fontSize: 25,
+                            fontSize: 25 ,
                             fontWeight: FontWeight.bold)),
                     SizedBox(height: 4),
                     Text("Suivi médical familial",
